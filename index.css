@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #edf6e0;
+    color: #333;
+    background: linear-gradient(to right, rgb(223, 240, 154), rgb(229, 179, 253), rgb(237, 68, 144));
+
+
+}
+header{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background: radial-gradient(#e27508, #00f2fe);
+    color: rgb(79, 32, 235);
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+    text-align: justify;
+    width: 100%;
+}
+.logo{
+     flex: 1;
+     align-items: center;
+
+}
+.icon{
+     width: 50%;
+     height: 50%;
+     border-radius: 50%;
+    
+}
+.Bio{
+    flex: 2;
+    align-items: center;
+    
+     width: 80%;
+}
+.eduhob{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5f6d71);
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: :left;
+    border-radius: 50px;
+    width: auto;
+}
+    
+.educ{
+    flex: 1;
+    background: linear-gradient(to right,#aff480, #fe9d00);
+    padding: 1px;
+    width: auto;
+    height: 280px;
+    font-size: medium;
+    border-radius: 30px;
+}
+
+.hob{
+    flex: 1;
+     background: linear-gradient(to right,#aff480, #00f2fe);
+     padding: 1px;
+     width: auto;
+     height: 280px;
+     font-size: medium;
+     border-radius: 30px;
+}
+.v-line{
+    width: 1px;
+    height: auto;
+    display: inline-block;
+    margin: 0 0px;
+   
+}
+
+h3{
+    align-items: center;
+    color: #5f6d71;
+    text-align: center;
+    background-color: #bfb9be;
+    border: 0.5px solid rebeccapurple;
+
+}
+.table{
+    width: 100px;
+    border-collapse: collapse;
+    background: rgb(189, 211, 189);
+    border-radius: 8px;
+    margin: auto;
+    border: #29d429;
+    
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    color: #5f6d71;
+    border-bottom: 1px solid #ddd;
+    
+}
+th {
+    background-color: antiquewhite;
+    color: blue;
+    align-items: center;
+    font-weight: 800;
+}
+footer{
+    background: #76767c;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    color: rgb(64, 9, 131);
+
+}
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.contact-icons a{
+    text-decoration: none;
+    transition: transform 0;
+
+}
+.contact-icons a:hover{
+    transform: scale(1.2);
+}
+#whatsapp{
+    color: rgb(148, 216, 46);
+}
+#phone {
+    color: green;
+}
+#gmail {
+    color: whitesmoke;
+}
+#x {
+    color:black
+}
+#tiktok{
+    color: #010f13;
+}
+#tube{
+    color: rgb(246, 77, 77);
+}
